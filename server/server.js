@@ -3,9 +3,7 @@ const next = require('next');
 const nextI18NextMiddleware = require('next-i18next/middleware').default;
 
 // i18n middleware setup options
-const NextI18NextInstance = require('./i18n');
-// sitemap setup options
-const sitemap = require('./sitemap')
+const NextI18NextInstance = require('../i18n');
 
 const port = parseInt(process.env.PORT || 3000, 10);
 const dev = process.env.NODE_ENV !== 'production';
@@ -28,5 +26,5 @@ const handle = app.getRequestHandler();
   server.get('*', (req, res) => handle(req, res));
 
   await server.listen(port);
-  console.info(`> Ready on http://localhost:${port} 🤘🏾 🇮🇨 🇪🇨  🤘🏾`);
+  console.info(`> Ready on http://localhost:${port}`);
 })();

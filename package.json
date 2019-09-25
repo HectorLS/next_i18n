@@ -8,6 +8,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@types/styled-components": "^4.1.19",
     "express": "^4.17.1",
     "next": "latest",
     "next-i18next": "^1.2.1",
