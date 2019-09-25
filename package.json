@@ -13,7 +13,6 @@
     "next-i18next": "^1.2.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "sitemap": "^4.1.1",
     "styled-components": "^4.4.0"
   },
   "devDependencies": {

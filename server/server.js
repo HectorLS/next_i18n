@@ -17,9 +17,6 @@ const handle = app.getRequestHandler();
   await app.prepare();
   const server = express();
 
-  // generate sitemap
-  sitemap({ server })
-
   // i18n middleware to handle multilingual app
   try {
     server.use(nextI18NextMiddleware(NextI18NextInstance))
