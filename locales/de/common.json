@@ -1,0 +1,9 @@
+{
+  "hello": "Hallo",
+  "language": {
+    "english" : "englisch",
+    "french" : "französisch",
+    "german" : "deutsch",
+    "spanish" : "spanisch"
+  }
+}

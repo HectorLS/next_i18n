@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
+import i18n from '../i18n';
 
 type Props = {
   title?: string
@@ -36,4 +37,4 @@ const Layout: React.FunctionComponent<Props> = ({ children, title = 'This is the
   </div>
 )
 
-export default Layout
+export default i18n.appWithTranslation(Layout)
