@@ -7,10 +7,10 @@ module.exports = new NextI18Next({
   defaultNS: 'common',
   defaultLanguage: 'en',
   ignoreRoutes:	['/_next/', '/static/'],
-  otherLanguages: ['de, es, fr'],
+  otherLanguages: ['de', 'es', 'fr'],
   localeExtension:'json',
-  localePath:	'locales',
-  localeStructure: '{{lng}}/{{ns}}',
+  // localePath:	'locales',
+  // localeStructure: '{{lng}}/{{ns}}',
   localeSubpaths: {
     fr: 'french',
     de: 'german',
